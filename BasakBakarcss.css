@@ -1,0 +1,65 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin:0;
+	}
+.Hakkımda {/*Anasayfa çıkan hakkımda kısmı için oluşturdum.*/
+	text-align:center;
+	color:#e1a287;
+}
+.ArkaPlanResim {/* Arka plan resmi koyup tüm sayfayı kaplamasını sağladım. */
+  background-image: url("forest.jpg");
+  min-height: 2600px;
+  background-position: center;/* Sayfadaki yerini ve kapladığı alanı ayarladım. */
+  background-size: cover;
+}
+.YonlendirmeKutulariYeri {/* Sayfa üstünde bulunan yönlendirme kutularını sayfanın en üstünde olmasından ziyade biraz aşağısında olmasını istedim. */
+  position: absolute;
+  margin-left:0px;
+  margin-top:100px;
+  width: auto;
+}
+.Yonlendirmeler {/* Yönlendirme kutucuklarının görünümü için */
+  overflow: hidden;
+  background-color: #333;
+}
+.Yonlendirmeler a {/* Yönlendirme kutularının boyutları için */
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 28px 32px;
+	text-decoration: none;
+	font-size: 17px;
+	min-width:239.5px;
+}
+
+.Yonlendirmeler a:hover {/*Yönlendirme kutucuklarının üzerine gelindiğinde renk değişir.*/
+  background-color:#e1a287;
+  color: black;
+}
+ 
+.SayfaIcerikleri {/*Sayfa içeriklerinin düzeni*/
+	color:white;
+	display:none;
+	padding:100px 20px;
+	height:100%;
+	
+}
+.OzgecmisFoto {/*Özgeçmiş sayfamdaki fotoğrafın düzeni*/
+	float:left;
+	height:26%;
+	width:18%;
+	min-height:220px;
+	min-width:200px;
+	margin-top:25px;
+	margin-right:2%;
+	border:solid 3px #B8860B;
+}
+.Icerik1 {/*Özgeçmiş ve Mirasımız sayfalarında kullandığım bazı içeriklerin düzeni*/
+	margin-left:22%;
+	color:white;
+} 
+
+
+.mySlides {/*Gebze sayfasında yer alan slaytların düzeni*/
+max-height:50%;
+display: none;}
